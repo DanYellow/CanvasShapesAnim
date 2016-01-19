@@ -32,3 +32,10 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+
+public
+
+.DS_Store
+
+Home(1).png
