@@ -4,16 +4,23 @@
 <head>
     <title>An example page</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
       html, body {
-        height: auto;
+        height: 100%;
         width: 100%;
         margin: 0px;
+        padding: 0;
       }
       #canvas {
-        width: 100%;
-        background: rgb(227, 242, 253);
+        width: inherit;
+        height: inherit;
+        
         position: relative;
+        max-width: 80%;
+        margin: 0 auto;
+
       }
 
       #canvas:before {
@@ -29,6 +36,9 @@
 
       #canvas-container {
         position: relative;
+        height: 100%;
+        width: 100%;
+        background: rgb(227, 242, 253);
       }
 
 
@@ -37,6 +47,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
         z-index: 9999;
         background-color: white;
         padding: 50px;
@@ -49,7 +60,10 @@
 <body>
 {% block main %}{% endblock %}
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.js"></script>
 <script src="assets/javascripts/main.js"></script>
-</footer>
+
 </body>
 </html>
