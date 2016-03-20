@@ -1,14 +1,24 @@
 $(function() {
   var s = Snap('#canvas');
 
-  Snap.load('../assets/anim-intro.svg', function (canvas) {
+  function infRotate( el, time, rPosX, rPosY, posX, posY ) {
+    var fromTransformation = 't' + posX + ',' + posY + ', r0, ' + rPosX + ', ' + rPosY;
+    var toTransformation   = 't' + posX + ',' + posY + ', r360, ' + rPosX + ', ' + rPosY;
+
+    el.transform(fromTransformation);
+    el.animate({ transform: toTransformation }, time, mina.linear, infRotate.bind(null, el, time, rPosX, rPosY, posX, posY));
+  };
+
+
+  Snap.load('../assets/images/anim-intro.svg', function (canvas) {
     /**
      * SVG forms definitions
      */
 
     var purpleCircle = canvas.select('#purple_x5F_circle');
     var redCircle = canvas.select('#red_x5F_circle');
-    var pinkCircle = canvas.select('#pink_x5F_circle');
+    var pinkCircleSmall = canvas.select('#pink_x5F_triangle_x5F_small');
+    var pinkTriangle = canvas.select('#pink_x5F_triangle');
     
     var whiteTriangle = canvas.select('#white_x5F_triangle');
     var blueCircle = canvas.select('#blue_x5F_circle');
@@ -44,7 +54,9 @@ $(function() {
         }
       );
     }
-    topLeftGroupAnimation();
+    // topLeftGroupAnimation();
+    infRotate(topLeftGroup, 10000, 50, 50, 260, 210);
+
 
     function whiteTriangleAnimation(){
       whiteTriangle.stop().animate(
@@ -60,38 +72,34 @@ $(function() {
 
     s.append(topLeftGroup);
     
-
     var bottomLeftGroup = s.group(pinkCircle, whiteCircle, blueTriangle, darkBlueTriangle);
-    bottomLeftGroup.transform('t260, 410');
+    bottomLeftGroup.transform('t260, 710');
 
   
     var bLGProperties = bottomLeftGroup.getBBox();
     bLGProperties = _.mapObject(bottomLeftGroup.getBBox(), function(val, key){ return parseInt(val); });
 
 
-    whiteCircle.attr({ cx: 120, cy: 0 });
+    whiteCircle.attr({ cx: 50, cy: -15 });
     pinkCircle.attr({ cx: 0, cy: 0 });
 
-    blueTriangle.transform('t-50, -200');
-    darkBlueTriangle.transform('t-110, -90, r60');
+    blueTriangle.transform('t80, -20, r50');
+    darkBlueTriangle.transform('t85, -120, r70');
 
-    function infRotate( el, time, rPosX, rPosY, posX, posY ) {
-      var fromTransformation = 't' + posX + ',' + posY + ', r0, ' + rPosX + ', ' + rPosY;
-      var toTransformation   = 't' + posX + ',' + posY + ', r360, ' + rPosX + ', ' + rPosY;
 
-      el.transform(fromTransformation);
-      el.animate({ transform: toTransformation }, time, mina.linear, infRotate.bind(null, el, time, rPosX, rPosY, posX, posY));
-    };
 
-    infRotate(bottomLeftGroup, 8000, 150, 150, 260, 410);
+    infRotate(bottomLeftGroup, 8000, 0, 0, 260, 710);
 
-    infRotate(blueTriangle, 16000, 150, 150, -50, -200);
-    console.log(blueTriangle.getBBox().cx)
+    infRotate(blueTriangle, 16000, 0, 0, 80, -20);
     s.append(bottomLeftGroup);
 
 
-    var bottomRightGroup = s.group(purpleCircle, pinkCircle, redCircle);
+    var bottomRightGroup = s.group(purpleCircle, pinkCircleSmall, pinkTriangle, redCircle);
+    bottomRightGroup.transform('t860, 410');
 
+    redCircle.transform('t150,80');
+    pinkCircle.transform('t150,-80');
+    pinkTriangle.transform('t150,-80');
   });
 });
 

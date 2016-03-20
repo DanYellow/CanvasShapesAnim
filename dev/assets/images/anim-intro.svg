@@ -2,14 +2,14 @@
 <!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="377.813px" height="377.813px" viewBox="0 0 377.813 377.813" enable-background="new 0 0 377.813 377.813"
+	 width="377.812px" height="377.812px" viewBox="0 0 377.812 377.812" enable-background="new 0 0 377.812 377.812"
 	 xml:space="preserve">
 <circle id="purple_x5F_circle" fill="#3949AB" cx="188.906" cy="188.907" r="188.907"/>
 <circle id="red_x5F_circle" fill="#FF1744" cx="63.234" cy="63.234" r="63.234"/>
 <path id="red_x5F_triangle" fill="#FF8A80" d="M38.49,38.627H0L19.244,0L38.49,38.627z M1.615,37.627h35.262L19.244,2.242
 	L1.615,37.627z"/>
 <circle id="white_x5F_circle" fill="#FFFFFF" cx="39.532" cy="39.532" r="39.532"/>
-<path id="purple_x5F_triangle" fill="#F8BBD0" d="M156.621,157.179H0L78.311,0L156.621,157.179z M6.461,153.179h143.697L78.309,8.97
+<path id="pink_x5F_triangle" fill="#F8BBD0" d="M156.621,157.179H0L78.311,0L156.621,157.179z M6.461,153.179h143.697L78.309,8.97
 	L6.461,153.179z"/>
 <path id="blue_x5F_triangle" fill="#2196F3" d="M40.531,40.674H0L20.266,0L40.531,40.674z M1.615,39.674h37.301L20.265,2.242
 	L1.615,39.674z"/>
@@ -18,6 +18,7 @@
 <circle id="pink_x5F_circle" fill="#FF80AB" cx="62.5" cy="62.5" r="62.5"/>
 <circle id="indigo_x5F_circle" fill="#536DFE" cx="22.698" cy="22.698" r="22.698"/>
 <circle id="blue_x5F_circle" fill="#2196F3" cx="61.838" cy="61.838" r="61.838"/>
-<path id="white_x5F_triangle" fill="#FFFFFF" d="M72.178,72.436H0L36.09,0L72.178,72.436z M1.615,71.436h68.949L36.09,2.244
+<path id="white_x5F_triangle" fill="#FFFFFF" d="M72.178,72.436H0L36.09,0L72.178,72.436z M1.615,71.436h68.948L36.09,2.244
 	L1.615,71.436z"/>
+<circle id="pink_x5F_triangle_x5F_small" fill="#F8BBD0" cx="39.532" cy="39.532" r="39.532"/>
 </svg>
