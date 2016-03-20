@@ -3,20 +3,20 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="400px" height="400px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
-<circle id="purple_x5F_circle" fill="#3949AB" cx="199.608" cy="201.482" r="188.907"/>
-<circle id="red_x5F_circle" fill="#FF1744" cx="221.478" cy="172.018" r="63.234"/>
-<path id="red_x5F_triangle" fill="#FF8A80" d="M218.609,219.258h-38.491l19.245-38.627L218.609,219.258z M181.733,218.258h35.261
-	l-17.631-35.385L181.733,218.258z"/>
-<circle id="white_x5F_circle" fill="#FFFFFF" cx="259.341" cy="133.82" r="39.532"/>
-<path id="purple_x5F_triangle" fill="#F8BBD0" d="M387.809,280.167H231.188l78.311-157.179L387.809,280.167z M237.649,276.167
-	h143.697l-71.849-144.209L237.649,276.167z"/>
-<path id="blue_x5F_triangle" fill="#2196F3" d="M169.767,221.602h-40.53l20.265-40.675L169.767,221.602z M130.851,220.602h37.301
-	l-18.651-37.433L130.851,220.602z"/>
-<path id="dark_x5F_blue_x5F_triangle" fill="#2F3490" d="M244.955,144.364H121.116l61.92-124.274L244.955,144.364z M127.578,140.364
-	h110.914L183.036,29.06L127.578,140.364z"/>
-<circle id="pink_x5F_circle" fill="#FF80AB" cx="167.798" cy="319.164" r="62.5"/>
-<circle id="indigo_x5F_circle" fill="#536DFE" cx="102.938" cy="186.442" r="22.698"/>
-<circle id="blue_x5F_circle" fill="#2196F3" cx="251.563" cy="272.966" r="61.838"/>
-<path id="white_x5F_triangle" fill="#FFFFFF" d="M235.9,237.812h-72.178l36.09-72.435L235.9,237.812z M165.337,236.812h68.949
-	l-34.474-69.191L165.337,236.812z"/>
+<circle id="purple_x5F_circle" fill="#3949AB" cx="188.906" cy="188.907" r="188.907"/>
+<circle id="red_x5F_circle" fill="#FF1744" cx="63.234" cy="63.234" r="63.234"/>
+<path id="red_x5F_triangle" fill="#FF8A80" d="M38.49,38.627H0L19.244,0L38.49,38.627z M1.615,37.627h35.262L19.244,2.242
+	L1.615,37.627z"/>
+<circle id="white_x5F_circle" fill="#FFFFFF" cx="39.532" cy="39.532" r="39.532"/>
+<path id="purple_x5F_triangle" fill="#F8BBD0" d="M156.621,157.179H0L78.311,0L156.621,157.179z M6.461,153.179h143.697L78.309,8.97
+	L6.461,153.179z"/>
+<path id="blue_x5F_triangle" fill="#2196F3" d="M40.531,40.674H0L20.266,0L40.531,40.674z M1.615,39.674h37.301L20.265,2.242
+	L1.615,39.674z"/>
+<path id="dark_x5F_blue_x5F_triangle" fill="#2F3490" d="M123.839,124.274H0L61.92,0L123.839,124.274z M6.462,120.274h110.914
+	L61.92,8.97L6.462,120.274z"/>
+<circle id="pink_x5F_circle" fill="#FF80AB" cx="62.5" cy="62.5" r="62.5"/>
+<circle id="indigo_x5F_circle" fill="#536DFE" cx="22.698" cy="22.698" r="22.698"/>
+<circle id="blue_x5F_circle" fill="#2196F3" cx="61.838" cy="61.838" r="61.838"/>
+<path id="white_x5F_triangle" fill="#FFFFFF" d="M72.178,72.436H0L36.09,0L72.178,72.436z M1.615,71.436h68.949L36.09,2.244
+	L1.615,71.436z"/>
 </svg>

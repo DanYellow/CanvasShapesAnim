@@ -16,5 +16,8 @@
     "serve-static": "^1.10.0",
     "slugify-url": "^1.2.0",
     "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "gulp-watch": "^4.3.5"
   }
 }
